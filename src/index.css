@@ -1,0 +1,116 @@
+/* General reset for the app */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5efe6; /* Cream background */
+    color: #4a4a4a; /* Neutral dark gray text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+h1 {
+    text-align: center;
+    color: #5c4033; /* Chocolate brown */
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #8b6f4e; /* Warm tan for accents */
+}
+
+/* Form styling */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #dcccbc; /* Light cream border */
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #d2b89f; /* Soft tan-gray border */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input:focus {
+    border-color: #5c4033; /* Chocolate focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(92, 64, 51, 0.5);
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8b6f4e; /* Warm tan button */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #5c4033; /* Chocolate on hover */
+}
+
+/* Expenses list styling */
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #4a4a4a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+ul li {
+    background-color: #ffffff;
+    border: 1px solid #dcccbc; /* Light cream border */
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul li p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+ul li strong {
+    color: #5c4033; /* Chocolate brown */
+}
+
+ul li button {
+    margin: 10px 5px;
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #8b6f4e; /* Warm tan buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul li button:hover {
+    background-color: #5c4033; /* Chocolate on hover */
+}
+
+/* Centering buttons inside cards */
+ul li .button-container {
+    text-align: center;
+    margin-top: 10px;
+}
